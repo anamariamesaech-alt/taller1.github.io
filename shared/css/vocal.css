@@ -1,0 +1,59 @@
+/* ===== NAVBAR ===== */
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* ===== BODY ===== */
+body{
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ff9ad5, #ff6fb7);
+  min-height: 100vh;
+  margin: 0;
+
+  /* centrado del contenido */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* espacio para el menú */
+  padding-top: 70px;
+}
+
+/* ===== TARJETA ===== */
+.contenedor{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  width:300px;
+  text-align:center;
+  box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* ===== INPUT Y BOTÓN ===== */
+input, button{
+  padding:10px;
+  margin-top:10px;
+  width:100%;
+}
+
+button{
+  border:none;
+  background:#e83e8c;
+  color:white;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#c2186a;
+}
+
+/* ===== RESULTADO ===== */
+#resultado{
+  margin-top:15px;
+  font-weight:bold;
+}
